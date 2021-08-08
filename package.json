@@ -4,6 +4,7 @@
   "description": "Primer proyecto para el curso Full Stack Web Development - Coursera CFM",
   "main": "index.html",
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,5 +13,8 @@
   },
   "author": "carlos ceron",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/N4wel/proyecto-coursera-cfm#readme"
+  "homepage": "https://bitbucket.org/N4wel/proyecto-coursera-cfm#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
