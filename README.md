@@ -8,7 +8,7 @@ Si estas interesado en contribuir con este repositorio descarga. Debes utilizar 
 
 > npm install
 
-> npm run dev
+> npm run
 
 Owner: Carlos Ceron
 
