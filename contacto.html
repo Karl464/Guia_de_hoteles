@@ -10,9 +10,9 @@
   <!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
  -->
 
- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
- <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css" >
- <link rel="stylesheet" href="css/main.css" >
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/main.css">
 
   <title>Guia de hoteles Maneat</title>
 </head>
@@ -56,26 +56,71 @@
         <li class="breadcrumb-item active" aria-current="page">Contacto</li>
       </ol>
     </nav>
-    <span>
-      <div class="d-flex flex-wrap flex-row">
-        <!-- "row"> -->
-        <div class="contenido col-sm-4">
-          <p>
-          <h3>Contactanos</h3>
-          <p>
-            Tu felicidad empieza desde tu primer acercamiento con nuestra organziación. Por eso nos da gusto disponer de
-            diferentes medios para atender a cualquiera de tus requerimientos en la forma que prefieras.<br>
 
-            Si necesitas ayuda con tu reserva, llámanos o escribe tu solicitud a:<br>
+    <div class="d-flex flex-wrap flex-row">
+      <!-- "row"> -->
+      <div class="contenido col-sm-4">
+        <p>
+        <h3>Contactanos</h3>
+        <p>
+          Tu felicidad empieza desde tu primer acercamiento con nuestra organziación. Por eso nos da gusto disponer de
+          diferentes medios para atender a cualquiera de tus requerimientos en la forma que prefieras.<br>
 
-              </span><b>Móvil:</b> <i>+57 </i><br>
-              <b>Línea Gratuita:</b> <i>&emsp+57    (01 8000)</i><br>
-              <b>Email:</b> <i>ventasweb@maneat.com</i><br>
+          Si necesitas ayuda con tu reserva, llámanos o escribe tu solicitud a:<br>
 
-            A continuación presentamos nuestro directorio de acuerdo a tu solicitud:
-          </p>
-        </div>
+          <b>Móvil:</b> <i>+57 </i><br>
+          <b>Línea Gratuita:</b> <i>+57 (01 8000)</i><br>
+          <b>Email:</b> <i>ventasweb@maneat.com</i><br>
+
+          Dejanos tus comentarios:
+        </p>
+
+        <form>
+          
+          <div class="mb-3">
+            <label for="ContactFirstName" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="ContactFirstName" placeholder="Ingrese su nombre">
+          </div>
+          <div class="mb-3">
+            <label for="ContactLastName" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="ContactLastName" placeholder="Ingrese su apellido">
+          </div>
+          <div class="mb-3">
+            <label for="ContactAddress" class="form-label">Direccion</label>
+            <input type="text" class="form-control" id="ContactAddress" placeholder="Ingrese su direccion">
+          </div>
+          <div class="mb-3">
+            <label for="ContactProvince" class="form-label">Departamento</label>
+            <select id="ContactProvince" class="form-control">
+              <option selected>Medellin</option>
+              <option>Bogota</option>
+              <option>Cali</option>
+              <option>Barranquilla</option>
+              </select>
+          </div>
+          <div class="mb-3">
+            <label for="ContactEmail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="ContactEmail" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <!--
+          <div class="mb-3">
+            <label for="ContacPassword" class="form-label">Password</label>
+            <input type="password" class="form-control" id="ContacPassword">
+          </div>
+          -->
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Quiero que me contacten</label>
+          </div>
+          <div class="mb-3">
+            <label for="ContactComments" class="form-label">Comentarios</label>
+            <textarea class="form-control" id="ContactComments" rows="10"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </div>
+    </div>
     </span>
   </div>
 
@@ -89,7 +134,7 @@
       </div>
       <div>
         <address>
-          <p><i class="bi bi-compass footer-address-icon" ></i>Medellin, Antioquia, Colombia</p>
+          <p><i class="bi bi-compass footer-address-icon"></i>Medellin, Antioquia, Colombia</p>
           <p><i class="bi bi-phone-vibrate footer-address-icon"></i>+573012319317</p>
           <p><i class="bi bi-envelope footer-address-icon"></i>Contacto@maneat.com</p>
         </address>
