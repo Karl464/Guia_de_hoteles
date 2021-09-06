@@ -10,6 +10,10 @@ Si estas interesado en contribuir con este repositorio descarga. Debes utilizar 
 
 > npm run
 
+o
+
+> npm run dev
+
 Owner: Carlos Ceron
 
 Simple Hotel Web Page Project
