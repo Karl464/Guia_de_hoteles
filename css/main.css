@@ -83,6 +83,10 @@ address
 
 }
 
+.accordion-button{
+    background-color:lightgrey ;
+    text-align: center;
+}
 
 /*
 .card-body{
