@@ -79,7 +79,8 @@
       <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3"
         aria-expanded="false" aria-controls="multiCollapseExample3">Todo incluido</button>
       <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
-        aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Ocutar/Revelar elements</button>
+        aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Ocutar/Revelar
+        elements</button>
     </p>
     <div class="row">
       <div class="col">
@@ -133,7 +134,7 @@
           </div>
         </div>
       </div>
-      
+
       <div class="col">
         <div class="collapse multi-collapse" id="multiCollapseExample3">
           <div class="card card-body">
@@ -186,6 +187,10 @@
               horas y uno de los
               mejores restaurantes de la zona. Contamos con Wifi gratis y ofrecemos Traslados (aeropuerto).</p>
         </div>
+        
+        <div> <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">Contactar</button>
+      </div>
         <div>
           <a class="btn btn-primary btn-reserva" href="#" role="button">Reservar</a>
         </div>
@@ -201,6 +206,10 @@
               habitación amplias y cómodas. Desayuno incluido.
             </p>
         </div>
+        
+        <div> <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">Contactar</button>
+      </div>
         <div>
           <a class="btn btn-primary btn-reserva" href="#" role="button">Reservar</a>
         </div>
@@ -216,6 +225,10 @@
               amplias, servicios de restaurante, desayuno incluido, y Wifi gratis.
             </p>
         </div>
+        
+        <div> <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">Contactar</button>
+      </div>
         <div>
           <a class="btn btn-primary btn-reserva" href="#" role="button">Reservar</a>
         </div>
@@ -230,6 +243,10 @@
               horas y uno de los
               mejores restaurantes de la zona. Contamos con Wifi gratis y ofrecemos Traslados (aeropuerto).</p>
         </div>
+        
+        <div> <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">Contactar</button>
+      </div>
         <div>
           <a class="btn btn-primary btn-reserva" href="#" role="button">Reservar</a>
         </div>
@@ -244,6 +261,10 @@
               Cuenta con servicios de restaurante, desayuno incluido, y Wifi gratis.
             </p>
         </div>
+        
+        <div> <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">Contactar</button>
+      </div>
         <div>
           <a class="btn btn-primary btn-reserva" href="#" role="button">Reservar</a>
         </div>
@@ -256,7 +277,11 @@
           <h6 class="card-subtitle">Manizales</h4>
             <p class="card-text">
               Cuenta con servicios de restaurante, desayuno incluido, y Wifi gratis.
+
             </p>
+        </div>
+        <div> <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Contactar</button>
         </div>
         <div>
           <a class="btn btn-primary btn-reserva" href="#" role="button">Reservar</a>
@@ -271,8 +296,13 @@
           <h6 class="card-subtitle">Jardin</h4>
             <p class="card-text">Tu lugar ideal para disfrutar de la tranquilidad.
               con uno de los
-              mejores restaurantes de la zona. Contamos con Wifi gratis y ofrecemos Traslados (aeropuerto).</p>
+              mejores restaurantes de la zona. Contamos con Wifi gratis y ofrecemos Traslados (aeropuerto).</p> 
+
         </div>
+        
+        <div> <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">Contactar</button>
+      </div>
         <div>
           <a class="btn btn-primary btn-reserva" href="#" role="button">Reservar</a>
         </div>
@@ -286,6 +316,10 @@
             <p class="card-text">Tu lugar ideal para disfrutar de un buen descanso
               con los mejores restaurantes de la zona. Contamos con Wifi gratis y ofrecemos Traslados (aeropuerto).</p>
         </div>
+        
+        <div> <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">Contactar</button>
+      </div>
         <div>
           <a class="btn btn-primary btn-reserva" href="#" role="button">Reservar</a>
         </div>
@@ -293,6 +327,9 @@
 
     </div>
   </div>
+
+
+
 
 
   <footer>
@@ -317,6 +354,37 @@
         <a href="https://www.linkedin.com/">Contacto</a>
       </div>
     </div>
+
+    <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+    data-bs-target="#exampleModal">Contactar</button>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Nuevo mensaje</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label">Destinatario:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="mb-3">
+                <label for="message-text" class="col-form-label">Mensaje:</label>
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">Enviar mensaje</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </footer>
   <!-- Option 2: Separate Popper and Bootstrap JS -->
 
