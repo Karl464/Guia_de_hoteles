@@ -197,8 +197,8 @@
       </div>
 
       <div class="card card-hotel">
-        <div class="card-header">Acacias</div>
-        <img class="card-img-top" src="/imagenes/relax.jpg" alt="hotel img">
+        <div class="card-header" data-bs-toggle="tooltip">Acacias</div>
+        <img class="card-img-top" src="/imagenes/relax.jpg" alt="hotel img" data-bs-placement="top" title="Todas las reservas tienen clases de baile">
         <div class="card-body">
           <h6 class="card-subtitle">Manizales</h4>
             <p class="card-text">
@@ -217,7 +217,7 @@
 
       <div class="card card-hotel">
         <div class="card-header">Las Colinas</div>
-        <img class="card-img-top" src="/imagenes/mountains-manuel-moreno.jpg" alt="hotel img">
+        <img class="card-img-top" src="/imagenes/mountains-manuel-moreno.jpg" alt="hotel img" data-bs-toggle="popover" title="Verifica los descuentos" >
         <div class="card-body">
           <h6 class="card-subtitle">Salento</h4>
             <p class="card-text">
@@ -254,7 +254,7 @@
 
       <div class="card card-hotel">
         <div class="card-header">Ibague</div>
-        <img class="card-img-top" src="/imagenes/pool.jpg" alt="hotel img">
+        <img class="card-img-top" src="/imagenes/pool.jpg" alt="hotel img" data-bs-placement="top" title="Todas las reservas tienen clases de baile">
         <div class="card-body">
           <h6 class="card-subtitle">Ibague</h4>
             <p class="card-text">
@@ -355,9 +355,6 @@
       </div>
     </div>
 
-    <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
-    data-bs-target="#exampleModal">Contactar</button>
-
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -394,6 +391,12 @@
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="node_modules/masonry-layout/dist/masonry.pkgd.min.js"></script>
 
+  <script>
+    $(function(){
+      $("[data-toggle='tooltip']").tooltip();
+      $("[data-toggle='popover']").tooltip();
+    });
+  </script>
 
 
 
