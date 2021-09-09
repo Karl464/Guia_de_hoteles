@@ -3,11 +3,11 @@
   color: white;
   border-style: solid;
   text-align: center;
-  margin-right: auto; }
-
+  margin-right: auto;
+}
 .breadcrumb {
-  color: black; }
-
+  color: black;
+}
 .jumbotron {
   padding: 10px;
   text-align: center;
@@ -16,67 +16,63 @@
   border-style: solid;
   margin-top: 55px;
   background-image: url(/imagenes/Banner-maneat.PNG);
-  font-weight: bold; }
-
+  font-weight: bold;
+}
 .contenido {
   flex: 300px;
   padding: 10px;
-  background-color: lightgray;
-  /*    margin-top: 5px;
-    margin-bottom: 5px;*/
+  background-color: lightgray  ;
   margin-top: 5px;
   margin-bottom: 5px;
   margin-left: 5px;
   margin-right: 5px;
   border-style: solid;
-  border-color: white; }
-
+  border-color: white;
+}
 body {
-  background-color: whitesmoke; }
-
+  background-color: whitesmoke;
+}
 table {
-  border-style: solid; }
-
+  border-style: solid;
+}
 h3 {
-  text-align: center; }
-
+  text-align: center;
+}
 h4 {
-  text-align: center; }
-
+  text-align: center;
+}
 footer {
   padding: 10px 10px 0 10px;
-  background-color: lightgray;
-  margin-top: 10px;
+  background-color: lightgray ;
   margin-bottom: 0px;
+  margin-top: 10px;
   border-style: solid;
-  border-color: white; }
-
+  border-color: white;
+}
 address {
-  text-align: center; }
-
+  text-align: center;
+}
 .card {
   flex: 1 150px;
   /*display: flex;*/
-  background-color: lightgray;
-  /*    margin-top: 5px;
-    margin-bottom: 5px;*/
+  background-color: lightgray ;
   margin-top: 5px;
   margin-bottom: 5px;
   margin-left: 5px;
   margin-right: 5px;
-  text-align: center; }
-
+  text-align: center;
+}
 .card-header {
   font-weight: bold;
-  font-size: 125%; }
-
+  font-size: 125%;
+}
 .card-subtitle {
-  color: whitesmoke; }
-
+  color: whitesmoke;
+}
 .accordion-button {
   background-color: light grey;
-  text-align: center; }
-
+  text-align: center;
+}
 /*
 .card-body{
     border-style: solid;
@@ -86,9 +82,8 @@ address {
     flex: 1 150px;
     padding: 2px 5px 2px 5px;
     background-color:lightseagreen ;
-/*    margin-top: 5px;
-    margin-bottom: 5px;*/
-/*    @include margenes(5px, 5px);
+    margin-top: 5px;
+    margin-bottom: 5px;
     margin-left: 5px;
     margin-right: 5px;
     border-style: solid;
@@ -99,11 +94,11 @@ address {
   border-style: solid;
   color: white;
   background-color: grey;
-  border-color: black; }
-
+  border-color: black;
+}
 .footer-address-icon {
-  padding-right: 10px; }
-
+  padding-right: 10px;
+}
 .grid {
   width: 100%;
   margin: 0 auto;
@@ -111,7 +106,8 @@ address {
   grid-gap: 20px;
   text-align: center;
   margin-top: 1rem;
-  flex: 1 150px; }
-
+  flex: 1 150px;
+}
 .tab-content {
-  padding-top: 5px; }
+  padding-top: 5px;
+}

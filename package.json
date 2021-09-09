@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass -o css/ css/"
+    "scss": "node-sass -o css/ css/",
+    "lessc": "css/styles.less css/styles2.css"
   },
   "repository": {
     "type": "git",
