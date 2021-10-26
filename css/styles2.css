@@ -1,6 +1,6 @@
 .navbar {
   background: black;
-  color: white;
+  color: red;
   border-style: solid;
   text-align: center;
   margin-right: auto;
@@ -11,8 +11,8 @@
 .jumbotron {
   padding: 10px;
   text-align: center;
-  color: white;
-  border-color: white;
+  color: red;
+  border-color: red;
   border-style: solid;
   margin-top: 55px;
   background-image: url(/imagenes/Banner-maneat.PNG);
@@ -22,12 +22,14 @@
   flex: 300px;
   padding: 10px;
   background-color: lightgray  ;
+  /*    margin-top: 5px;
+    margin-bottom: 5px;*/
   margin-top: 5px;
   margin-bottom: 5px;
   margin-left: 5px;
   margin-right: 5px;
   border-style: solid;
-  border-color: white;
+  border-color: red;
 }
 body {
   background-color: whitesmoke;
@@ -44,10 +46,10 @@ h4 {
 footer {
   padding: 10px 10px 0 10px;
   background-color: lightgray ;
-  margin-bottom: 0px;
   margin-top: 10px;
+  margin-bottom: 0px;
   border-style: solid;
-  border-color: white;
+  border-color: red;
 }
 address {
   text-align: center;
@@ -56,6 +58,8 @@ address {
   flex: 1 150px;
   /*display: flex;*/
   background-color: lightgray ;
+  /*    margin-top: 5px;
+    margin-bottom: 5px;*/
   margin-top: 5px;
   margin-bottom: 5px;
   margin-left: 5px;
@@ -82,8 +86,9 @@ address {
     flex: 1 150px;
     padding: 2px 5px 2px 5px;
     background-color:lightseagreen ;
-    margin-top: 5px;
-    margin-bottom: 5px;
+/*    margin-top: 5px;
+    margin-bottom: 5px;*/
+/*    .margenes(5px, 5px);
     margin-left: 5px;
     margin-right: 5px;
     border-style: solid;
@@ -92,7 +97,7 @@ address {
 .btn-reserva {
   width: 100%;
   border-style: solid;
-  color: white;
+  color: red;
   background-color: grey;
   border-color: black;
 }
