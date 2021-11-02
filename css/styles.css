@@ -23,7 +23,7 @@
   padding: 10px;
   background-color: lightgray;
   /*    margin-top: 5px;
-    margin-bottom: 5px;*/
+      margin-bottom: 5px;*/
   margin-top: 5px;
   margin-bottom: 5px;
   margin-left: 5px;
@@ -59,7 +59,7 @@ address {
   /*display: flex;*/
   background-color: lightgray;
   /*    margin-top: 5px;
-    margin-bottom: 5px;*/
+      margin-bottom: 5px;*/
   margin-top: 5px;
   margin-bottom: 5px;
   margin-left: 5px;
@@ -115,3 +115,5 @@ address {
 
 .tab-content {
   padding-top: 5px; }
+
+/*# sourceMappingURL=styles.css.map */
