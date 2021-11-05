@@ -1,22 +1,25 @@
 .navbar {
   background: black;
-  color: white;
+  color: green;
   border-style: solid;
   text-align: center;
-  margin-right: auto; }
+  margin-right: auto;
+}
 
 .breadcrumb {
-  color: black; }
+  color: black;
+}
 
 .jumbotron {
   padding: 10px;
   text-align: center;
-  color: white;
-  border-color: white;
+  color: green;
+  border-color: green;
   border-style: solid;
   margin-top: 55px;
   background-image: url(/imagenes/Banner-maneat.PNG);
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .contenido {
   flex: 300px;
@@ -29,19 +32,24 @@
   margin-left: 5px;
   margin-right: 5px;
   border-style: solid;
-  border-color: white; }
+  border-color: green;
+}
 
 body {
-  background-color: whitesmoke; }
+  background-color: whitesmoke;
+}
 
 table {
-  border-style: solid; }
+  border-style: solid;
+}
 
 h3 {
-  text-align: center; }
+  text-align: center;
+}
 
 h4 {
-  text-align: center; }
+  text-align: center;
+}
 
 footer {
   padding: 10px 10px 0 10px;
@@ -49,10 +57,12 @@ footer {
   margin-top: 10px;
   margin-bottom: 0px;
   border-style: solid;
-  border-color: white; }
+  border-color: green;
+}
 
 address {
-  text-align: center; }
+  text-align: center;
+}
 
 .card {
   flex: 1 150px;
@@ -64,18 +74,22 @@ address {
   margin-bottom: 5px;
   margin-left: 5px;
   margin-right: 5px;
-  text-align: center; }
+  text-align: center;
+}
 
 .card-header {
   font-weight: bold;
-  font-size: 125%; }
+  font-size: 125%;
+}
 
 .card-subtitle {
-  color: whitesmoke; }
+  color: whitesmoke;
+}
 
 .accordion-button {
   background-color: light grey;
-  text-align: center; }
+  text-align: center;
+}
 
 /*
 .card-body{
@@ -97,12 +111,14 @@ address {
 .btn-reserva {
   width: 100%;
   border-style: solid;
-  color: white;
+  color: green;
   background-color: grey;
-  border-color: black; }
+  border-color: black;
+}
 
 .footer-address-icon {
-  padding-right: 10px; }
+  padding-right: 10px;
+}
 
 .grid {
   width: 100%;
@@ -111,9 +127,9 @@ address {
   grid-gap: 20px;
   text-align: center;
   margin-top: 1rem;
-  flex: 1 150px; }
+  flex: 1 150px;
+}
 
 .tab-content {
-  padding-top: 5px; }
-
-/*# sourceMappingURL=styles.css.map */
+  padding-top: 5px;
+}
